@@ -9,13 +9,13 @@
     box-sizing: border-box;
   }
     body {
+      text-align: left;
       margin: 0;
       padding: 40px;
       font-family: 'Georgia', serif;
       background-color: #f4f1ee;
       color: #333;
       line-height: 1.8;
-      text-align: left;
     }
 
     .container {
@@ -43,6 +43,7 @@
       text-align: center;
       color: #444;
     }
+
     p {
       font-size: 1.05em;
       text-align: left;
@@ -57,7 +58,7 @@
 
     li {
       margin-bottom: 15px;
-      position: relative;
+      position: left;
       padding-left: 1em;
     }
 
