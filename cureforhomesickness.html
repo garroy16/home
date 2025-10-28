@@ -8,32 +8,38 @@
 </head>
 <body>
 
-<div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+  <nav class="site-nav">
+    <a href="index.html" class="brand">
+      <span class="logo">
+        <img src="images/marigoldone.png" alt="Miguel Arroyo Logo">
+      </span>
+      <span class="title">Miguel Arroyo</span>
+      <span class="tag">an Experiment, a Dream</span>
+    </a>
+
+    <div class="menu">
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <button class="hamburger" id="hamburgerBtn" aria-label="Open menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
     <div class="panel" role="dialog" aria-modal="true" aria-label="Mobile navigation">
-      <div style="display:flex;align-items:center;justify-content:space-between;">
-        <div style="display:flex;gap:12px;align-items:center">
-          <a href="index.html" class="logo">
-            <img 
-              src="images/marigoldone.png" 
-              srcset="images/marigoldone.png 2x, images/marigoldone.png 3x" 
-              alt="Miguel Arroyo Logo">
-          </a>
-
-          <div>
-            <div class="title">Home:</div>
-            <div class="tag" style="color:var(--muted);font-size:12px">an Experiment, a Dream</div>
-          </div>
-
-          <nav class="mobile-links" aria-label="Mobile primary" style="margin-left:24px;">
-            <a href="about.html">About</a>
-            <a href="projects.html">Projects</a>
-            <a href="contact.html">Contact</a>
-          </nav>
-        </div>
-      </div>
+      <nav class="mobile-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
   </div>
-
   <div class="container">
     <h1>Cure for Homesickness</h1>
 
