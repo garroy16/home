@@ -5,6 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Fixed Style Example</title>
   <style>
+
+:root {
+  --text: #222;
+  --accent: #c45b2e;
+  --muted: #777;
+  --radius: 8px;
+  --gap: 20px;
+} 
+
  * {
     box-sizing: border-box;
   }
@@ -74,6 +83,7 @@
       body {
         padding: 20px;
       }
+
       .container {
         padding: 25px;
       } 
@@ -91,10 +101,6 @@
       border-top: 1px solid #e0d8c3;
     }
 
-.site-nav {
-  position: relative;
-  z-index: 2;
-}
     .backdrop {
       position: fixed;
       top: 0;
@@ -107,6 +113,8 @@
 
      .site-nav {
       max-width: 1100px;
+      position: relative;
+      z-index: 2;
       margin: 0 auto 24px;
       display: flex;
       align-items: center;
@@ -205,14 +213,6 @@
   .mobile-links a:hover {
     color: var(--accent);
   }
- 
-:root {
-  --text: #222;
-  --accent: #c45b2e;
-  --muted: #777;
-  --radius: 8px;
-  --gap: 20px;
-}
 
  .container {
     max-width: 800px;
