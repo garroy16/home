@@ -91,6 +91,10 @@
       border-top: 1px solid #e0d8c3;
     }
 
+.site-nav {
+  position: relative;
+  z-index: 2;
+}
     .backdrop {
       position: fixed;
       top: 0;
@@ -201,7 +205,14 @@
   .mobile-links a:hover {
     color: var(--accent);
   }
-  }
+ 
+:root {
+  --text: #222;
+  --accent: #c45b2e;
+  --muted: #777;
+  --radius: 8px;
+  --gap: 20px;
+}
 
  .container {
     max-width: 800px;
