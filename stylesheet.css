@@ -83,6 +83,9 @@
       body {
         padding: 20px;
       }
+      .brand.logo img {
+      width: 120px; }
+      }
 
       .container {
         padding: 25px;
@@ -136,8 +139,9 @@
   }
 
 .brand .logo img {
-    width: 42px;
-    height: auto;
+    display: inline-block;
+    width: auto;
+    height: block;
     border-radius: 8px;
   }
 
@@ -226,4 +230,3 @@
 
 </style>
 </html>
-
