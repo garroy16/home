@@ -136,8 +136,7 @@
   }
 
 .brand .logo img {
-    display: block;
-    max-width: 150px;
+    width: 42px;
     height: auto;
     border-radius: 8px;
   }
